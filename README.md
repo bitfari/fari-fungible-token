@@ -1,21 +1,29 @@
-# Stacks Fungible Token Standard
+# FARI Fungible Token Standard
 
-This repository is a simple example of a fungible token. It also defines the trait used in the [Stacks Improvement Proposal (SIP) for fungible tokens](https://github.com/stacksgov/sips/pull/5).
+This repository contains the spec and smart contracts that implement the FARI fungible token. It also defines the trait used in the [Stacks Improvement Proposal (SIP) for fungible tokens](https://github.com/stacksgov/sips/pull/5).
 
 - [Fungible token trait contract](./contracts/ft-trait.clar)
 - [Example token that implements the trait](./contracts/example-token.clar)
 - [Unit tests for the contracts](./contracts/token.test.ts)
 
-This project is already configured for use with [Clarigen](https://github.com/obylabs/clarigen) and [Clarinet](https://github.com/hirosystems/clarinet) to provide an optimal developer experience.
-
 ## Comparison to ERC20
 
 Many of the functions in this contract are built to follow industry best practices. For example, all functions and their signatures are similar to the ERC20 standard on Ethereum. However, the Stacks Blockchain and Clarity smart contracting language have built-in primitives for defining, transfering, and querying fungible tokens. As you can see, the code required to implement a fungible token is quite small.
 
-## Development
+## About the FARI Token
 
-Feel free to fork this project and use it for your own token.
+SIP-010 Fungible Token Standard
+Limited Supply of 100M tokens
+Six decimal places
+20% Premined/80% Mined by the Community
+Integrated with the Stacks 2.0 Web Wallet
+Integrated with the Stacks 2.0 Block Explorer
+Up to 50% discount when shopping at participating stores
+Up to 50% discount when booking ad space at the Bitfari Network
+Weekly Rewards. Can be used as loyalty token by merchants.
+The token is integrated with our fraud detection tech 
+to avoid click fraud (expected on the Cervantes release, https://bitfari.org/bitfari-roadmap/)
+Governance Token to vote in the DAO Governance for Bitfari Improvement Proposals (BIPs)
+Dev, Marketing, Partner and Security Treasury
 
-Run tests with `yarn test` or `yarn test --watch`
-
-Run Clarinet scripts with `clarinet console` etc
+Full Spec: https://bitfari.org/token/
