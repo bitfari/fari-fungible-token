@@ -1,5 +1,5 @@
 ;;  Copyright (c) 2021 by The Bitfari Foundation.
-;;  Author: Jordhy Ledesma
+;;  Author: Jordhy Ledesma.
 ;;  This file is part of Bitfari.
 
 ;;  Bitfari is free software. You may redistribute or modify
